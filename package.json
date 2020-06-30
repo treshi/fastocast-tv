@@ -1,5 +1,5 @@
 {
-  "name": "fastcast",
+  "name": "fastcoast-tv",
   "version": "1.0.0",
   "description": "Stream peer-to-peer audio and video content",
   "main": "index.html",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fastcast/fastcast.git"
+    "url": "https://github.com/fastocast-tv/fastocast-tv.git"
   },
   "keywords": [
     "stream",
@@ -18,14 +18,14 @@
     "torrent"
   ],
   "author": {
-    "name": "Jacob Fulton Buckle",
-    "url": "https://github.com/jakefb"
+    "name": "iliosiptv",
+    "url": "https://github.com/treshi"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fastcast/fastcast/issues"
+    "url": "https://github.com/fastocast-tv/fastocast-tv/issues"
   },
-  "homepage": "http://fastcast.nz",
+  "homepage": "http://piccolo-tv.com",
   "dependencies": {
     "parse-torrent": "^7.0.1",
     "pretty-bytes": "^5.3.0",
