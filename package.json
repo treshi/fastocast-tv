@@ -1,6 +1,6 @@
 {
  "publishConfig": { "registry": "https://npm.pkg.github.com/" } 
-  "name": "fastcoast-tv",
+  "name" "fastcoast-tv",
   "version": "1.0.0",
   "description": "Stream peer-to-peer audio and video content",
   "main": "index.html",
