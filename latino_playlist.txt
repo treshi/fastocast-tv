@@ -1,0 +1,129 @@
+#EXTM3U
+#EXTINF:0,29 - VM Latino
+http://iptvditore.shqip.al:9981/stream/channelid/1123200462?ticket=7826AE793A3A7171E2B87BB6B7EF0820843D6A9B&profile=pass
+#EXTINF:0,42 - Extra TV 42
+http://iptvditore.shqip.al:9981/stream/channelid/1804698241?ticket=4C8DB258B00D42C9006A3B02F79297F02DB2DD01&profile=pass
+#EXTINF:0,7 - Teletica
+http://iptvditore.shqip.al:9981/stream/channelid/582426899?ticket=9727771E5185F5848D3010EC846F42F790042960&profile=pass
+#EXTINF:0,Animal Planet
+http://iptvditore.shqip.al:9981/stream/channelid/6370332?ticket=20AF68A35436E2E62F6C6222EC9F92F8201C32F6&profile=pass
+#EXTINF:0,Antena 3
+http://iptvditore.shqip.al:9981/stream/channelid/2085829824?ticket=3436BB296D3F6D19A7D20AD466D6339E092B0787&profile=pass
+#EXTINF:0,Azmundo
+http://iptvditore.shqip.al:9981/stream/channelid/156924366?ticket=7CAA94B5B1967EAE7AF14A67F889C6258DA443CF&profile=pass
+#EXTINF:0,Canal 13-GUA
+http://iptvditore.shqip.al:9981/stream/channelid/1512686053?ticket=80E6CD2F469E4F806E53D7D5E60A50E495D2A17E&profile=pass
+#EXTINF:0,Canal 2 - ESA
+http://iptvditore.shqip.al:9981/stream/channelid/116986170?ticket=EC1E8E0102585FE12DC07B62869C251CB6C26278&profile=pass
+#EXTINF:0,Canal 2 - NIC
+http://iptvditore.shqip.al:9981/stream/channelid/633325181?ticket=9435CF1C841486014C7C1D48ED1142BB725BBC0D&profile=pass
+#EXTINF:0,Canal 2 - PAN
+http://iptvditore.shqip.al:9981/stream/channelid/786573232?ticket=F16494B2C0A113634B673132E9955FE1145C2A02&profile=pass
+#EXTINF:0,Canal Claro
+http://iptvditore.shqip.al:9981/stream/channelid/1903551337?ticket=2B3EA44AB48643538BECCD8046CDF56702D141E2&profile=pass
+#EXTINF:0,Canal VTV HND
+http://iptvditore.shqip.al:9981/stream/channelid/1684100089?ticket=1D0CE67BB621F575D7C12D11EEBF7404148E9A90&profile=pass
+#EXTINF:0,Cincomas
+http://iptvditore.shqip.al:9981/stream/channelid/1161415677?ticket=7E5DA85F305ECD3C2177576C6B405EE46B113459&profile=pass
+#EXTINF:0,Cine Latino
+http://iptvditore.shqip.al:9981/stream/channelid/1009414695?ticket=02CE54E295AC7FF6145302CA14B0ADFE81BC5128&profile=pass
+#EXTINF:0,CineCanal
+http://iptvditore.shqip.al:9981/stream/channelid/543688469?ticket=F786F98354285B4E4129A028D4ADE07981FE9B58&profile=pass
+#EXTINF:0,CineMax
+http://iptvditore.shqip.al:9981/stream/channelid/2023920161?ticket=B329BC7B220FD28FE836D926C4C8A29516EA26B1&profile=pass
+#EXTINF:0,Digital 15 - RD
+http://iptvditore.shqip.al:9981/stream/channelid/1510986161?ticket=F0FE225FADAEFA899DC98600204B670BB8687769&profile=pass
+#EXTINF:0,Discovery Channel
+http://iptvditore.shqip.al:9981/stream/channelid/629408733?ticket=EF2DBD0EBBDF19C7EC4D7B85323A540AE2C9C4E7&profile=pass
+#EXTINF:0,Discovery Turbo
+http://iptvditore.shqip.al:9981/stream/channelid/1664585287?ticket=9E1A9851DAB749B5E0F4263B5E3DB33D2DAD4BFB&profile=pass
+#EXTINF:0,E!
+http://iptvditore.shqip.al:9981/stream/channelid/628706707?ticket=0A8658CA79BDFE7D4016EA2958E33EC6785B6E4B&profile=pass
+#EXTINF:0,Fashion One
+http://iptvditore.shqip.al:9981/stream/channelid/1306445761?ticket=BB8DF75CABDC91EB3A58567004FF6C3302B58085&profile=pass
+#EXTINF:0,FOX
+http://iptvditore.shqip.al:9981/stream/channelid/890819550?ticket=2F6DA942EB0B9ABC32ED6D196B64AAC8D494DADC&profile=pass
+#EXTINF:0,Fox News
+http://iptvditore.shqip.al:9981/stream/channelid/1232658870?ticket=BAAF0EF033CA9CB84F8C2F7F1156FA778342C544&profile=pass
+#EXTINF:0,Fox Sport 3
+http://iptvditore.shqip.al:9981/stream/channelid/1613883917?ticket=B98C7969B8D3909CE0F9881C431F95D8D0921F6E&profile=pass
+#EXTINF:0,FOX Sports 2
+http://iptvditore.shqip.al:9981/stream/channelid/817671704?ticket=10B1471D367B11FEFE0B239526A3AA4E0F5025B4&profile=pass
+#EXTINF:0,FOX+ACT
+http://iptvditore.shqip.al:9981/stream/channelid/518123864?ticket=40EE840142AF1DABB442F2B23F674397F716A055&profile=pass
+#EXTINF:0,FOX+CLA
+http://iptvditore.shqip.al:9981/stream/channelid/1137314427?ticket=4BEFA127309809A2ECB6507C339202D2883E55CA&profile=pass
+#EXTINF:0,FX
+http://iptvditore.shqip.al:9981/stream/channelid/601657121?ticket=06D7C61D06AF1576B298D8C7272303C5176F8E13&profile=pass
+#EXTINF:0,Guatevision - GUA
+http://iptvditore.shqip.al:9981/stream/channelid/52713248?ticket=37DB5DFB2A9C2AD7D462492D1D23CEFD69634388&profile=pass
+#EXTINF:0,HBO Family
+http://iptvditore.shqip.al:9981/stream/channelid/1064528594?ticket=4EE776934755B9A86E7F3BBCA01F230ED525B3BC&profile=pass
+#EXTINF:0,HBO Plus
+http://iptvditore.shqip.al:9981/stream/channelid/670434876?ticket=85F660B9ED2FB9AD74972CA2F56A7A551A7FDFEF&profile=pass
+#EXTINF:0,Headline News
+http://iptvditore.shqip.al:9981/stream/channelid/945378933?ticket=0E7DD70F6106309ACF23C64AE0D975DF55832A62&profile=pass
+#EXTINF:0,History Channel
+http://iptvditore.shqip.al:9981/stream/channelid/1432931367?ticket=1E448FCC2411607DE6C8A7FBC2EC21C1486F2083&profile=pass
+#EXTINF:0,La voz de Maria
+http://iptvditore.shqip.al:9981/stream/channelid/1454722126?ticket=BCE70C9814EC3EC4175B5FC80154EFBF65C3D8FA&profile=pass
+#EXTINF:0,Multicinema
+http://iptvditore.shqip.al:9981/stream/channelid/204959855?ticket=096754DA8BC2C18E439A611A194C17C8FF0187E2&profile=pass
+#EXTINF:0,Multipremier
+http://iptvditore.shqip.al:9981/stream/channelid/659278705?ticket=63244E2A34615E6ED2BA3E9F108E8456DA4B0D3B&profile=pass
+#EXTINF:0,NEXT - PAN
+http://iptvditore.shqip.al:9981/stream/channelid/803350842?ticket=6D6F4A0011D01AB64F5B939FC1675873DA82CEB2&profile=pass
+#EXTINF:0,Nickelodeon
+http://iptvditore.shqip.al:9981/stream/channelid/266217868?ticket=EE028256DB89B5D4109159E20E88B07F90E618A0&profile=pass
+#EXTINF:0,SUYAPA TV
+http://iptvditore.shqip.al:9981/stream/channelid/1516326404?ticket=39364EE8E29A2051EA97A24A93D108ED4E32AE4F&profile=pass
+#EXTINF:0,TBN Enlace
+http://iptvditore.shqip.al:9981/stream/channelid/1567738873?ticket=7F3FACB2049A17B2AA8855BB52BAE6D7627DEFDA&profile=pass
+#EXTINF:0,Telecentro - RD
+http://iptvditore.shqip.al:9981/stream/channelid/1306135036?ticket=9B5DA3168402E2AAA8E1560F4E777C5EF0EF08C8&profile=pass
+#EXTINF:0,Teleunion - RD
+http://iptvditore.shqip.al:9981/stream/channelid/1679941193?ticket=8146B5A75DF78F5BF0747B6398F571738ACB92FE&profile=pass
+#EXTINF:0,Teleuniverso - RD
+http://iptvditore.shqip.al:9981/stream/channelid/1008341326?ticket=B7A524846CEC8A385F05D768F52A9D7811795D86&profile=pass
+#EXTINF:0,TLC
+http://iptvditore.shqip.al:9981/stream/channelid/406831268?ticket=2F8432729643AFD7B2AD1FC970DA7B5F1403DD59&profile=pass
+#EXTINF:0,TNT
+http://iptvditore.shqip.al:9981/stream/channelid/1605426393?ticket=9B1D30D569896C6C8108705B1867FD0BB8F88FEE&profile=pass
+#EXTINF:0,TNT Series
+http://iptvditore.shqip.al:9981/stream/channelid/356832160?ticket=36E3B01765D5DA86D2500CCC23CAEB9BB5150D05&profile=pass
+#EXTINF:0,TVE
+http://iptvditore.shqip.al:9981/stream/channelid/1335844408?ticket=4419200EF5E583CF04F97591B1F3B14137884865&profile=pass
+#EXTINF:0,Warner
+http://iptvditore.shqip.al:9981/stream/channelid/465680759?ticket=DA7164FD50B2EC35C539EBF4F8878DD86B960D56&profile=pass
+#EXTINF:0,WARNER HD
+http://iptvditore.shqip.al:9981/stream/channelid/1134277130?ticket=4A8847619CE250C2D267B3211F71814FBC8FB171&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/69734110?ticket=2F3AE63C1D1D2C9322FB0D08570D6A58BC7429D2&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/179392355?ticket=DC2499E381E658DE030DBD6CEE5BB7B84F64C8D1&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/380601984?ticket=9298EB14763B67F874233134198C84F5EEEFE3D0&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/385430333?ticket=4A9852ACE8199EC6650D259011D03D9F87AF0F60&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/914638924?ticket=6B5B78EAE702ADB64C8BC7C634A8312C94EAF4F0&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1393145633?ticket=6DC5FB214703664292D10A9374EFE9682AA71308&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1427887498?ticket=0C6D369ED7587A48C8E5B9548739C72E2B7DA108&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1480614520?ticket=F71DB820BD269E30B0DC331048A2452DE95EA727&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1489057411?ticket=5A8D3B1787EF165F5032695B1C55481F35A5EBD0&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1674632683?ticket=563382628FB3E7A3D8CA9525BA4C15BA4A6F2D46&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1712095991?ticket=D33311D9876CFC310E53079D34FE7CDD3E563E83&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1781200105?ticket=E7C28C6A01B5431C531E72BF7C25F44F94AD3E9D&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1800023716?ticket=25CFE4056268299ABC12F3ECC85A8849B6E72C12&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1842677941?ticket=1F227016F1E83C32484A9E3487D6E81C33A7A351&profile=pass
+#EXTINF:0,{name-not-set}
+http://iptvditore.shqip.al:9981/stream/channelid/1986799852?ticket=475F9D20A39311DEC24BD949E06897B274F999E5&profile=pass

@@ -1,0 +1,13 @@
+{
+  "name": "iptv-tools",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "author": "jjm2473",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "iptv-playlist-parser": "^0.4.2"
+  }
+}

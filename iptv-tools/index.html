@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta name="author" content="jjm2473">
+
+        <title>M3U8 to IPTV</title>
+        <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/base.css" rel="stylesheet">
+
+    <!-- Font-Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <meta name="description" lang="en" content="M3U8 conversion">
+        <meta name="description" content="M3U8 Converter">
+        <meta name="keywords" content="m3u8,iptv">
+        <link rel="author" href="https://github.com/jjm2473">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"         
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- {{{ Genesys Cloud -->
+    <link id="genesys-widget-styles" href="https://apps.mypurecloud.com/widgets/9.0/widgets.min.css">
+  <!-- Genesys Cloud }}} -->    
+        
+    <!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/sq_AL/sdk.js#xfbml=1&version=v7.0"></script>        
+    </head>
+<style>
+body {
+  background-color: #070617 ;
+}
+</style>
+    <ul class="nav masthead-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<h1><p style="color:red">IPTV m3u8 Maker</p></h1>
+<h2><p style="color:red">IPTV Domestic + foreign m3u files of live TV broadcast sources.</p></h2>
+         <h1><p style="color:red">M3U8 Conversion</p></h1>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xl-6 col-md-5">
+                    <label for="input_file"><p style="color:white">Select or paste M3U8 file</p></label>
+                    <input id="input_file" type="file" accept="application/x-mpegURL" style="margin: 5px 0" class="form-control-file">
+                    <textarea id="input_text" class="form-control" rows="15" wrap="off"></textarea>
+                </div>
+                <div class="col-xl-1 col-md-2">
+                    <div style="display: flex;margin-left: -10px;margin-right: -10px;padding-top: 100px;"><button id="compile" type="button" style="margin: 5px auto" class="btn btn-primary" disabled>Convert=&gt;</button></div>
+                </div>
+                <div class="col-xl-5 col-md-5">
+                    <textarea class="form-control" readonly id="output_text" rows="16" wrap="off"></textarea>
+                    <div style="display: flex"><a id="download" href="#" target="_blank" style="margin: 5px auto" class="btn btn-primary disabled" download="iptv.txt">Download or save as</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script>
+            var module = {}
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/iptv-playlist-parser@0.4.2/src/index.min.js"></script>
+        <script>
+            var m3u8Parser = module.exports;
+            module = {};
+        </script>
+        <script src="core.js"></script>
+        <script>
+            var m3u8ToTxt = module.exports(m3u8Parser);
+        </script>
+
+        <script>
+            (function(){
+                var inputText = document.getElementById('input_text');
+                var inputFile = document.getElementById('input_file');
+                var actionButton = document.getElementById('compile');
+                var inputChanged = function() {
+                    if (inputText.value === '') {
+                        actionButton.disabled = true;
+                    } else {
+                        actionButton.disabled = undefined;
+                    }
+                };
+                inputFile.addEventListener('change', function() {
+                    inputText.value = '';
+                    inputChanged();
+                    var file = this.files[0];
+                    if (file !== undefined) {
+                        if (file.size > 1024*1024) {
+                            if (!confirm('你选择的文件超过1MB, 确定要加载?')) {
+                                inputFile.value = '';
+                                return;
+                            }
+                        }
+                        var reader = new FileReader();
+                        reader.addEventListener('loadend', function(){
+                            inputText.value = reader.result;
+                            inputChanged();
+                        });
+                        reader.readAsText(file);
+                    }
+                });
+                var outputText = document.getElementById('output_text');
+                var download = document.getElementById('download');
+                actionButton.addEventListener('click', function() {
+                    // if (inputText.value === '') {
+                    //     alert('先选择或者粘贴蓝图');
+                    //     return;
+                    // }
+                    try {
+                        var script = m3u8ToTxt(inputText.value);
+                        outputText.value = script;
+                        var blob = new Blob([script], {type:'text/plain'});
+                        var url = URL.createObjectURL(blob);
+                        download.href = url;
+                        download.classList.remove('disabled');
+                    } catch (e) {
+                        alert('ERROR:' + e);
+                    }
+                });
+                inputText.addEventListener('change', inputChanged);
+            })();
+        </script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <div class="fb-comments" data-href="https://facebook.com/ilif69" data-numposts="10" data-width=""></div> 
+    <button id="compile" type="button" style="margin: 5px auto" class="btn btn-primary"><li><a href="http://192.168.1.128:3000"><p style="color:white">webchat</p></a></li></button>
+      <script src="http://192.168.1.128:3000"></script>
+  
+    </body>
+
+</html>

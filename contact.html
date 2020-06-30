@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn more about Fastcast.">
+    <meta name="description" content="A contact form using the Bootstrap 3 framework.">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone-6-plus.png">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/gh/samtecspg/articulate-webchat@0.0.3/lib/articulate-webchat.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/samtecspg/articulate-webchat@0.0.3/lib/articulate-webchat.js"></script>  
+    <link rel="stylesheet" href="formy.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/base.css" rel="stylesheet">
+
+    <!-- Font-Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- EXTRACT ADDITIONAL STYLING HERE =======> -->
+    <style>
+      .container {
+        width: auto;
+        max-width: 800px;
+      }
+      .form-group {
+        margin-bottom: 8px;
+      }
+      #feedbackForm {
+        font-size: 12px;
+      }
+    </style>
+    <!-- <======= UP TO HERE -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/vender/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="assets/vender/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!--ignore this-->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      padding-top: 100px;
+    }
+  </style>
+  <!--ignore this-->
+  <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <a href="/">
+                <svg class="masthead-brand" height="64" width="64" viewBox="0 0 114 114" version="1.1">
+                  <rect stroke-dashoffset="0" height="110" width="110" stroke="#3d3d62" stroke-dasharray="none" stroke-miterlimit="4" y="2" x="2" stroke-width="4" fill="none"/>
+                  <path stroke-linejoin="miter" d="m12,12,0,80,10,0,0,10,10,0,10-10,0-20,20,0,10-10,0-10-30,0,0-20,60,0,0-20z" stroke="#3d3d62" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+                  <path fill="#3d3d62" d="m12,12,0,70,10,0,0,10,20,0,0-20,20,0,10-10,0-10-30,0,0-20,60,0,0-20z"/>
+                </svg>
+              </a>
+              <ul class="nav masthead-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <Jumbotron>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Get in touch</h1>
+        <p><a href="mailto:contactiptvditore@gmail.com"><i class="fa fa-inbox"></i> contactiptvditore@gmail.com</a></p>
+        <p><a href="https://twitter.com/cececen"><i class="fa fa-twitter"></i> @cececen</a></p></Jumbotron>
+      </div>
+    </div>
+<!-- Formy code here -->
+  <form id="formy" name="formy" onSubmit="return validate(event);">
+
+    <div id="result"></div>
+
+    <!--Name field-->
+    <div class="input-field">
+      <i>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 19.79"><title>Name</title><path class="a" d="M7.72,2.15A3.13,3.13,0,0,0,6.49,4.74c0.06,0.78.22,1.79,0.22,1.79a0.92,0.92,0,0,0-.31.85c0.11,1.72.68,1,.8,1.73,0.28,1.81.93,1.49,0.93,2.48,0,1.65-.68,2.42-2.8,3.33S1,17,1,19v1H19V19c0-2-2.2-3.15-4.33-4.07s-2.8-1.68-2.8-3.33c0-1,.65-0.67.93-2.48,0.12-.75.69,0,0.8-1.73a0.92,0.92,0,0,0-.31-0.85s0.16-1,.22-1.79a3.09,3.09,0,0,0-2.3-3.1c-0.33-.34-0.56-0.88.47-1.42C9.44,0.11,8.92,1.28,7.72,2.15Z" transform="translate(-1 -0.21)"/></svg>
+      </i>
+      <input type="text" name="name" id="name" maxlength="60" data-validate required/>
+      <label for="name">Name</label>
+      <div class="lenghtCounter"><span></span></div>
+    </div>
+
+    <!--Email field-->
+    <div class="input-field">
+      <i>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 12"><title>Email</title><path class="a" d="M1.57,5.29l7.5,4a2.16,2.16,0,0,0,1.81,0l7.5-4C18.88,5,19.34,4,18.44,4H1.52C0.62,4,1.09,5,1.57,5.29Zm17,2.2-7.73,4a1.7,1.7,0,0,1-.91.2,1.7,1.7,0,0,1-.91-0.2l-7.69-4C1,7.28,1,7.52,1,7.71V15a1.22,1.22,0,0,0,1,1H18a1.22,1.22,0,0,0,1-1V7.71C19,7.52,19,7.28,18.61,7.49Z" transform="translate(-1 -4)"/></svg>
+      </i>
+      <input type="email" name="email" id="email" maxlength="60" required/>
+      <label for="email">Email</label>
+      <div class="lenghtCounter"><span></span></div>
+    </div>
+
+    <!--Phone field-->
+    <div class="input-field">
+      <i>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16"><title>Phone</title><path class="a" d="M11.23,11.23c-1.58,1.58-3.42,3.1-4.14,2.37-1-1-1.68-1.94-4-.1s-0.53,3.06.47,4.07c1.16,1.16,5.48.06,9.76-4.21s5.37-8.6,4.21-9.76c-1-1-2.23-2.76-4.06-.47s-0.94,2.93.1,4C14.32,7.81,12.81,9.65,11.23,11.23Z" transform="translate(-2 -2)"/></svg>
+      </i>
+      <input type="tel" name="phone" id="phone" maxlength="18" required/>
+      <label for="phone">Phone</label>
+      <div class="lenghtCounter"><span></span></div>
+    </div>
+
+    <!--Message field-->
+    <div class="input-field">
+      <i>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18"><title>Message</title><path class="a" d="M5.8,12.2V6H2A2,2,0,0,0,0,8v6a2,2,0,0,0,2,2H3v3l3-3h5a2,2,0,0,0,2-2V12.18l-0.2,0h-7ZM18,1H9A2,2,0,0,0,7,3v8h7l3,3V11h1a2,2,0,0,0,2-2V3A2,2,0,0,0,18,1Z" transform="translate(0 -1)"/></svg>
+      </i>
+      <textarea name="message" id="message"></textarea>
+      <label for="message">Your message</label>
+    </div>
+
+    <!--Submit button-->
+    <button type="submit" class="submit">
+      Submit
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.2 17.6"><title>Submit</title><path class="a" d="M11.93,13.07S19,8,18.21,2.15a0.46,0.46,0,0,0-.11-0.27,0.44,0.44,0,0,0-.26-0.12C12.14,1,7.16,8.18,7.16,8.18c-4.32-.52-4,0.34-6,5.08-0.38.9,0.23,1.21,0.9,1l2.15-.81,2.59,2.65L6,18.25c-0.25.69,0.05,1.31,0.94,0.93C11.6,17.17,12.44,17.49,11.93,13.07Zm1-5.92a1.59,1.59,0,0,1,0-2.22,1.51,1.51,0,0,1,2.17,0,1.59,1.59,0,0,1,0,2.22A1.51,1.51,0,0,1,12.94,7.15Z" transform="translate(-1.07 -1.7)"/></svg>
+    </button>
+  </form>
+  <!-- //formy code is over -->
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">&copy; 2020 Fastcast. Powered by <a href="http://webtorrent.io">WebTorrent</a>.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Fastclick -->
+    <script src='js/fastclick.js'></script>
+    <script>
+      $(function() {
+        FastClick.attach(document.body)
+      })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="formy.min.js"></script>
+    <div id="webchat"/>
+    <script>
+      WebChat.default.init({
+        selector: '#webchat',
+        socketUrl: '<ws://YOUR ARTICULATE SERVER URL:7500>',
+        socketPath: '/agent/<YOUR AGENT ID>/converse',
+        converseUrl: '<http://YOUR ARTICULATE SERVER URL:7500>/agent/<YOUR AGENT ID>/converse',
+        title: 'LIVE AGENT',
+        subtitle: 'How can we help???',
+        senderPlaceHolder: 'Type a message...',
+        titleAvatar: 'https://static.thenounproject.com/png/815603-200.png',
+        profileAvatar: 'https://static.thenounproject.com/png/815603-200.png'
+      });
+    </script>
+</div>
+    </body>
+</html>
